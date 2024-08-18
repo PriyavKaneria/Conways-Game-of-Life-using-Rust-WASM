@@ -1,7 +1,18 @@
 ### If you want to checkout a live demo, I've integrated this project with my other Game of Life experiments [here](https://github.com/PriyavKaneria/experiments-with-game-of-life) [WIP]
 
+Steps to run the pre-built package:
 
-Steps to build and run the project:
+### **Serve the Project**
+   The necessary [index.html](index.html) and [index.js](index.js) files are there in this repo to serve the WebAssembly module.
+   You can use a simple HTTP server to serve the files. For instance, if you have `npm` installed, you can use `http-server`:
+
+   ```sh
+   npx http-server .
+   ```
+
+   Navigate to the provided local server address in your browser to see the result.
+
+## Steps to build the project if you want to make changes:
 
 ### 1. **Install Rust (if not already installed)**:
    If you haven't installed Rust, you can do so by running the following command in your terminal: (for Linux and macOS)
@@ -37,13 +48,4 @@ Steps to build and run the project:
 
    This command compiles your Rust code into WebAssembly and generates a `pkg` directory containing the `.wasm` file along with JavaScript bindings and TypeScript definitions. The `--target web` flag tells `wasm-pack` to generate the bindings for use in a web environment.
 
-
-### 7. **Serve Your Project**
-   The necessary [index.html](index.html) and [index.js](index.js) files are there in this repo to serve the WebAssembly module.
-   You can use a simple HTTP server to serve the files. For instance, if you have `npm` installed, you can use `http-server`:
-
-   ```sh
-   npx http-server .
-   ```
-
-   Navigate to the provided local server address in your browser to see the result.
+### Serve the project as mentioned [above](#serve-the-project).

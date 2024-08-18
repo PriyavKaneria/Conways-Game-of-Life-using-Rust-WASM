@@ -1,0 +1,18 @@
+{
+  "name": "conwaysgol2d-wasm",
+  "type": "module",
+  "collaborators": [
+    "Priyav Kaneria <priyavkaneria@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "conwaysgol2d_wasm_bg.wasm",
+    "conwaysgol2d_wasm.js",
+    "conwaysgol2d_wasm.d.ts"
+  ],
+  "main": "conwaysgol2d_wasm.js",
+  "types": "conwaysgol2d_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
