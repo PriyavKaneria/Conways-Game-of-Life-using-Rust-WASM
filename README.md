@@ -1,6 +1,6 @@
 ### If you want to checkout a live demo, I've integrated this project with my other Game of Life experiments [here](https://github.com/PriyavKaneria/experiments-with-game-of-life) [WIP]
 
-Steps to run the pre-built package:
+## Steps to run the pre-built package:
 
 ### **Serve the Project**
    The necessary [index.html](index.html) and [index.js](index.js) files are there in this repo to serve the WebAssembly module.
