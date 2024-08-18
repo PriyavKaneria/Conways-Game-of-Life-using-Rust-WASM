@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0; overflow: hidden">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conway's Game of Life</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+			}
+			canvas {
+				border: 1px solid black;
+			}
+			button {
+				margin: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas
+			id="game-of-life-canvas"
+			style="z-index: 0; position: absolute; top: 0; left: 0"
+		></canvas>
+		<div
+			style="
+				z-index: 10;
+				position: relative;
+				width: max-content;
+				padding: 5px;
+				pointer-events: none;
+				background-color: #ffffffee;
+			"
+		>
+			<h1>Conway's Game of Life (Rust + WASM)</h1>
+			<div style="pointer-events: all">
+				<button id="play-pause">Play/Pause</button>
+				<button id="step">Step</button>
+				<button id="clear">Clear</button>
+				<button id="randomize">Randomize</button>
+				<label for="brush-size">Brush Size:</label>
+				<input type="number" id="brush-size" min="1" max="10" value="1" />
+			</div>
+		</div>
+		<script type="module" src="./index.js"></script>
+	</body>
+</html>
