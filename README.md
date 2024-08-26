@@ -1,4 +1,4 @@
-### If you want to checkout a live demo, I've integrated this project with my other Game of Life experiments [here](https://github.com/PriyavKaneria/experiments-with-game-of-life) [WIP]
+### If you want to checkout a live demo, I've integrated this project with my other Game of Life experiments [here](https://experiments-with-game-of-life.pages.dev/) [WIP]
 
 ## Steps to run the pre-built package:
 
