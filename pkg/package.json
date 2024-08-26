@@ -4,7 +4,7 @@
   "collaborators": [
     "Priyav Kaneria <priyavkaneria@gmail.com>"
   ],
-  "version": "0.1.0",
+  "version": "0.3.0",
   "files": [
     "conwaysgol2d_wasm_bg.wasm",
     "conwaysgol2d_wasm.js",
@@ -14,5 +14,9 @@
   "types": "conwaysgol2d_wasm.d.ts",
   "sideEffects": [
     "./snippets/*"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PriyavKaneria/Conways-Game-of-Life-using-Rust-WASM.git"
+  }
 }
